@@ -13,7 +13,7 @@ end #def menu
 
 class Statistics
 
-  def in
+  def initialize
     @player = 0
     @hal9000 = 0
     @draw = 0
@@ -136,7 +136,6 @@ here
 end #def secret_game
 
 stat = Statistics.new
-stat.in
 
 loop do
   case menu
